@@ -1,4 +1,5 @@
 /** Macros for use in Lido.app tutorial Google Sheets Macros */
+/** https://github.com/rvbautista/google-sheets-macros/ */
 /** Adds alternating colors to the first 8 columns of the Google Sheets */
 
 function alternatingcolors() {
