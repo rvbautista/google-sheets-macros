@@ -1,8 +1,8 @@
 /** Macros for use in Lido.app tutorial Google Sheets Macros */
 /** https://github.com/rvbautista/google-sheets-macros/ */
-/** Sorts the entire sheet using the values in the first column */
+/** Sorts the entire sheet in ascending order or alphabetical order using the values in the first column */
 
-function sortfirstcolwithheader() {
+function sortAZfirstcolwithheader() {
   var spreadsheet = SpreadsheetApp.getActive();
   spreadsheet.getRange('A1').activate();
   var currentCell = spreadsheet.getCurrentCell();
