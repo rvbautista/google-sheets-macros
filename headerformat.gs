@@ -1,4 +1,5 @@
 /** Macros for use in Lido.app tutorial Google Sheets Macros */
+/** https://github.com/rvbautista/google-sheets-macros/ */
 /** Colors the first 8 cells of the first row in the sheet that serves as the header row of the table */
 
 function headerformat() {
